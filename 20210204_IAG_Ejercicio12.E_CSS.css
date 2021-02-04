@@ -1,0 +1,91 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Courier New', Courier, monospace;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.cajainicio {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 10px;
+    border-width: 2px;
+    border-color: black;
+    border-style: dotted;
+}
+
+.cajafotonombre {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    margin: 10px;
+    height: fit-content;
+}
+
+.nombre {
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+}
+
+.foto {
+    border-radius: 50%;
+    padding: 10px;
+    margin: 10px;
+}
+
+.cajadatos {
+    padding: 10px;
+    margin: 10px;
+    border-width: 2px;
+    border-color: black;
+    border-style: dotted;
+}
+
+.cajacosas {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 10px;
+    border-width: 2px;
+    border-color: black;
+    border-style: dotted;
+}
+
+.cajaexperiencia {
+    padding: 10px;
+    margin: 10px;
+    height: fit-content;
+    border-width: 2px;
+    border-color: black;
+    border-style: dotted;
+}
+
+.cajaformacion {
+    padding: 10px;
+    margin: 10px;
+    height: fit-content;
+    border-width: 2px;
+    border-color: black;
+    border-style: dotted;
+}
+
+@media screen and (min-width: 768px) {
+    body {
+        flex-direction: row;
+    }
+    .cajafotonombre {
+        flex-direction: row;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .cajainicio {
+        max-width: 400px;
+    }
+    .cajacosas {
+        flex-direction: row;
+    }
+}
