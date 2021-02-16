@@ -19,6 +19,11 @@
       margin: 0 auto 12px auto;
    }
 
+   #call-to-action .header-col h1:before {
+      font-size: 66px;
+      line-height: 66px;
+   }
+
 }
 
 /* screenwidth less than 900px
