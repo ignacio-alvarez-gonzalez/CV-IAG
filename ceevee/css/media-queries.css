@@ -223,6 +223,9 @@
    }
    #about .main-col { padding-right: 30px; }
 
+    /* scrolldown link */
+    #about .scrolldown { display: none; }
+
 
    /* Resume Section
    --------------------------------------------------------------------- */
