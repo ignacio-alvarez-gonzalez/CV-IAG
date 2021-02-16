@@ -299,7 +299,7 @@ ul#nav li.current a { color: #F06000; }
    position: relative;
   	margin-bottom: 60px;
   	background: #ccc;
-  	height: 42px;
+  	height: 24px;
   	border-radius: 3px;
 }
 .bars li em {
@@ -320,7 +320,7 @@ ul#nav li.current a { color: #F06000; }
    padding-right: 24px;
   	background: #313131;
    display: inline-block;
-  	height: 42px;
+  	height: 24px;
    line-height: 42px;
    border-radius: 3px 0 0 3px;
 }
@@ -356,6 +356,31 @@ ul#nav li.current a { color: #F06000; }
   	-webkit-animation: jquery 2s ease;
 }
 
+.experto {
+   width: 100%;
+   -moz-animation: experto 2s ease;
+   -webkit-animation: experto 2s ease;
+}
+
+.profesional {
+   width: 75%;
+   -moz-animation: profesional 2s ease;
+   -webkit-animation: profesional 2s ease;
+}
+
+.usuarioAvanzado {
+   width: 50%;
+   -moz-animation: usuarioAvanzado 2s ease;
+   -webkit-animation: usuarioAvanzado 2s ease;
+}
+
+.usuario {
+   width: 25%;
+   -moz-animation: usuario 2s ease;
+   -webkit-animation: usuario 2s ease;
+}
+
+
 @-moz-keyframes photoshop {
   0%   { width: 0px;  }
   100% { width: 60%;  }
@@ -381,6 +406,23 @@ ul#nav li.current a { color: #F06000; }
   100% { width: 50%;  }
 }
 
+@-moz-keyframes experto {
+   0%   { width: 0px;  }
+   100% { width: 100%;  }
+ }
+ @-moz-keyframes profesional {
+   0%   { width: 0px;  }
+   100% { width: 75%;  }
+ }
+ @-moz-keyframes usuarioAvanzado {
+   0%   { width: 0px;  }
+   100% { width: 50%;  }
+ }
+ @-moz-keyframes usuario {
+   0%   { width: 0px;  }
+   100% { width: 25%;  }
+ }
+
 @-webkit-keyframes photoshop {
   0%   { width: 0px;  }
   100% { width: 60%;  }
@@ -405,6 +447,23 @@ ul#nav li.current a { color: #F06000; }
   0%   { width: 0px;  }
   100% { width: 50%;  }
 }
+
+@-webkit-keyframes experto {
+   0%   { width: 0px;  }
+   100% { width: 100%;  }
+ }
+ @-webkit-keyframes profesional {
+   0%   { width: 0px;  }
+   100% { width: 75%;  }
+ }
+ @-webkit-keyframes usuarioAvanzado {
+   0%   { width: 0px;  }
+   100% { width: 50%;  }
+ }
+ @-webkit-keyframes usuario {
+   0%   { width: 0px;  }
+   100% { width: 25%;  }
+ }
 
 /* ------------------------------------------------------------------ */
 /* e. Portfolio Section
