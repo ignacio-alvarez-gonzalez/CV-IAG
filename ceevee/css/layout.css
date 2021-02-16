@@ -496,7 +496,7 @@ ul#nav li.current a { color: #F06000; }
    padding-bottom: 60px;
 }
 #portfolio h1 {
-   font: 15px/24px 'opensans-semibold', sans-serif;
+   font: 18px/24px 'opensans-semibold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 1px;
    text-align: center;
@@ -719,7 +719,8 @@ call-to-action .button {
 /* ------------------------------------------------------------------ */
 
 #testimonials {
-   background: #1F1F1F url(../images/testimonials-bg.jpg) no-repeat center center;
+   /* background: #1F1F1F url(../images/proyectoMurallaBadajoz.jpg) no-repeat center center; */
+   background-color: #ebeeee;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    background-attachment: fixed;
@@ -729,6 +730,7 @@ call-to-action .button {
    width: 100%;
    overflow: hidden;
 }
+
 #testimonials .text-container {
    padding-top: 96px;
    padding-bottom: 66px;
@@ -737,13 +739,13 @@ call-to-action .button {
    font: 18px/24px 'opensans-bold', sans-serif;   
    text-transform: uppercase;
    letter-spacing: 3px;
-   color: #fff;
+   color: #95A3A3;
 }
-#testimonials h1 span { display: none; }
+/* #testimonials h1 span { display: none; } */
 #testimonials .header-col { padding-top: 9px; }
 #testimonials .header-col h1:before {
    font-family: 'FontAwesome';
-   content: "\f10d";
+   /* content: "\f10d"; */
 	padding-right: 10px;
 	font-size: 72px;
    line-height: 72px;
@@ -768,11 +770,14 @@ call-to-action .button {
    color: #fff
 }
 #testimonials blockquote cite {
-   display: block;
-   font-size: 12px;
-   font-style: normal;
-   line-height: 18px;
+   margin: 0 0px 30px 0px;
+   font-family: 'librebaskerville-italic', serif;
+   padding: 0;
+   font-size: 24px;
+   line-height: 48px;
    color: #fff;
+   position: relative;
+   text-shadow: 0px 1px 3px rgba(0, 0, 0, 1);
 }
 #testimonials blockquote cite:before { content: "\2014 \0020"; }
 #testimonials blockquote cite a,
@@ -843,8 +848,8 @@ call-to-action .button {
     width: 12px;
     height: 12px;
     display: block;
-    background: #ddd;
-    background: rgba(255, 255, 255, .3);
+    background: #95A3A3;
+    background: #95A3A3;
     cursor: pointer;
     text-indent: -9999px;
     -webkit-border-radius: 20px;
@@ -854,12 +859,12 @@ call-to-action .button {
     box-shadow: inset 0 0 3px rgba(255, 255, 255, .3);
 }
 .flex-control-paging li a:hover {
-    background: #CCC;
-    background: rgba(255, 255, 255, .7);
+    background: #F06000;
+    background: #F06000;
 }
 .flex-control-paging li a.flex-active {
-    background: #fff;
-    background: rgba(255, 255, 255, .9);
+    background: #F06000;
+    background: #F06000;
     cursor: default;
 }
 
