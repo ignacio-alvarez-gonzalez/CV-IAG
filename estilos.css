@@ -1,12 +1,15 @@
 body {
-    max-width: fit-content;
+    background-color: lightgray;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
+/* Sección de inicio */
+
+/* Sección de contacto */
 #contacto {
     background: #2B2B2B;
-    /* padding-top: 96px;
-    padding-bottom: 66px; */
-    /* overflow: hidden; */
     display: flex;
     flex-direction: column;
  }
@@ -39,4 +42,29 @@ body {
 
 }
 
-@media 
+/* Sección de cv */
+.titulocv {
+
+}
+
+#experiencia{
+
+}
+
+#bloqueexp {
+    
+}
+
+
+
+
+@media screen and (min-width: 768px) {
+ 
+}
+
+@media screen and (min-width: 1280px) {
+    #contacto {
+        flex-direction: row;
+    }
+    
+}
