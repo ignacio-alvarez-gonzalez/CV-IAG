@@ -138,7 +138,7 @@
 ------------------------------------------------------*/
 
    $('form#contactForm button.submit').click(function showAlertPropia() {
-      alert("Hola Libertad. La página sigue en construcción y aún no se envían los formularios. Ignacio.")
+      alert("La página sigue en construcción y aún no se envían los formularios. Ignacio.")
 
 
       // $('#image-loader').fadeIn();
