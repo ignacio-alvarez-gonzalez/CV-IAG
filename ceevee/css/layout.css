@@ -52,7 +52,7 @@ header .banner {
    vertical-align: middle;
    margin: 0 auto;
    width: 85%;
-   padding-bottom: 30px;s
+   padding-bottom: 30px;
    text-align: center;
 }
 
@@ -384,19 +384,19 @@ ul#nav li.current a { color: #F06000; }
 }
 
 .profesional {
-   width: 75%;
+   width: 100%;
    -moz-animation: profesional 2s ease;
    -webkit-animation: profesional 2s ease;
 }
 
 .usuarioAvanzado {
-   width: 50%;
+   width: 66%;
    -moz-animation: usuarioAvanzado 2s ease;
    -webkit-animation: usuarioAvanzado 2s ease;
 }
 
 .usuario {
-   width: 25%;
+   width: 33%;
    -moz-animation: usuario 2s ease;
    -webkit-animation: usuario 2s ease;
 }
@@ -433,15 +433,15 @@ ul#nav li.current a { color: #F06000; }
  }
  @-moz-keyframes profesional {
    0%   { width: 0px;  }
-   100% { width: 75%;  }
+   100% { width: 100%;  }
  }
  @-moz-keyframes usuarioAvanzado {
    0%   { width: 0px;  }
-   100% { width: 50%;  }
+   100% { width: 66%;  }
  }
  @-moz-keyframes usuario {
    0%   { width: 0px;  }
-   100% { width: 25%;  }
+   100% { width: 33%;  }
  }
 
 @-webkit-keyframes photoshop {
@@ -475,15 +475,15 @@ ul#nav li.current a { color: #F06000; }
  }
  @-webkit-keyframes profesional {
    0%   { width: 0px;  }
-   100% { width: 75%;  }
+   100% { width: 100%;  }
  }
  @-webkit-keyframes usuarioAvanzado {
    0%   { width: 0px;  }
-   100% { width: 50%;  }
+   100% { width: 66%;  }
  }
  @-webkit-keyframes usuario {
    0%   { width: 0px;  }
-   100% { width: 25%;  }
+   100% { width: 33%;  }
  }
 
 /* ------------------------------------------------------------------ */
